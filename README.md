@@ -84,5 +84,27 @@ Follow these steps for each file and change datatype for both columns.
 
 Save the XLS file as a CSV file and proceed to the next process.
 
+Analyze progress in (postgres sql)
+
+## Share
+I’ve downloaded all the findings and save it as CSV file my desktop.
+
+To share these findings and gave some insights about the riders 
+I create a data visualization using Power Bi and created a Dynamic Dashboard.
+
+![image](https://github.com/user-attachments/assets/35f65500-25a4-41a6-b408-4b1ce279fce4)
+
+
+also i will share my power bi report in this repostiory
+
+## Act
+# Recommendation
+Considering its goal of converting casual riders to members, Cyclistic should utilize ride data generated to provide targeted marketing to riders who meet certain criteria. Many casual riders are likely to be tourists, or people who seldom ride cyclitic bikes, and are very unlikely to see the benefit in buying a membership. Identifying casual riders whose behaviour is already more similar to existing members will likely be the most effective way to convert new members. Depending on how many characteristics ride data by casual rider’s match those of existing members, casual riders can be targeted more or less aggressively.
+For example, if a casual rider visit one of the stations most frequently visited by members, rides for roughly 13 minutes, on a weekday, in the monsoon, during regular commuting hours, there’s a very good chance that person would appreciate the benefits of becoming a member as they are already behaving as one. If all these criteria are met the rider should certainly be targeted aggressively, but this list is too specific, and a broader net should be cast as well.
+I would suggest targeting any casual rider who has taken a ride where any of their behaviours is more consistent with that of a member. That is, anyone who has ridden in locations where members frequently do, ridden for roughly around 13 minutes, or ridden on a weekday. If a casual rider’s ride data matches with two or more of these behaviours, they should be targeted more aggressively as they are more likely to be converted to a member.
+
+                                   ##  Thank you for your Reading
+
+
 
 

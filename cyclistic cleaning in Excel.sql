@@ -1,5 +1,5 @@
--- data cleaning and checking the data's integrity of overall accuracy and removing the duplicate rows from the table.
---now we've import the data ste into postgres sql by create table statement.
+-- open (postgres sql) pg admin 4 tool for futher process
+--  now we've import the data ste into postgres sql by create table statement.
 create table cyclistic_202408(
                               ride_id varchar(40),
 							  rideable_type	text,
@@ -21,6 +21,7 @@ create table cyclistic_202408(
 							  Start_time time,
 							  end_time time,
 							  days_of_week text);
+-- repeat this above command to import remaninig 5 tables as well.
 Select * from cyclistic_202403;
 select * from cyclistic_202404;
 select * from cyclistic_202405;
@@ -29,7 +30,7 @@ select * from cyclistic_202407;
 select * from cyclistic_202408;
 
 
--- first we will combine all these tables into a single table to
+-- next we will combine all these tables into a single table to
 
 create table cyclistic_company as
 Select * from cyclistic_202403
@@ -46,9 +47,10 @@ select * from cyclistic_202408
 
 select * from cyclistic_company;
 
--- Actually why I merged these six table data into a single table which make exploratory data analysis easir
+-- Actually why I merged these six table data into a single table which make exploratory data analysis easirer
 -- After combined these table i got total rows of 3541371.
 
+--cleaning in excel we didn't remove null because of large data set  
 --creating the table without null vallues in specfic columns.
  create table cyclistic_company_non_null as
  select * from cyclistic_company
@@ -60,7 +62,7 @@ select * from cyclistic_company_non_null;
 
 --we drop cyclistic_company table because i've created non_null values contain table.
 drop table cyclistic_company;
-
+## Process (EDA)
 --now i got a total rows of 2546704
 -- I have already added the addtional column like  start_time,end_time anddays_of_week now will extract seconds and minutes from the start_time and end_time
 create table cyclistic_company_bikeshare as
@@ -175,7 +177,9 @@ GROUP BY member_casual, days_of_week)
 WHERE rn =1
 order by member_casual DESC
 LIMIT 2
-	
+
+-- export all the output in csv file are make connection in power bi and make data visulization.	
+	;
 
 
 

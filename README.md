@@ -84,7 +84,7 @@ Follow these steps for each file and change datatype for both columns.
 
 Save the XLS file as a CSV file and proceed to the next process.
 
-Analyze progress in (postgres sql)
+## Analyze progress in (postgres sql) File attached in repository
 
 ## Share
 I’ve downloaded all the findings and save it as CSV file my desktop.

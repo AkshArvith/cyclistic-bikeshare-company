@@ -91,8 +91,7 @@ I’ve downloaded all the findings and save it as CSV file my desktop.
 
 To share these findings and gave some insights about the riders 
 I create a data visualization using Power Bi and created a Dynamic Dashboard.
-
-![image](https://github.com/user-attachments/assets/35f65500-25a4-41a6-b408-4b1ce279fce4)
+![Screenshot 2024-10-28 195815](https://github.com/user-attachments/assets/44859a50-7f7c-40db-81fa-d55a8622a365)
 
 
 also i will share my power bi report in this repostiory

@@ -149,7 +149,13 @@ Find my dynamic dashboard of cyclistic bikeshare company
  
 ![Screenshot 2024-10-28 195815](https://github.com/user-attachments/assets/12ebc245-eb64-4a83-bdbb-929a31a27846)
 
-## Recomdation
+### Recommendations:
+
+Marketing campaigns might be conducted in spring and summer at tourist/recreational locations popular among casual riders.
+
+Casual riders are most active on weekends and during the summer and spring, thus they may be offered seasonal or weekend-only memberships.
+
+Casual riders use their bikes for longer durations than members. Offering discounts for longer rides may incentivize casual riders and entice members to ride for longer periods of time.
 
 
 
